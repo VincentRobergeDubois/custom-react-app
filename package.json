@@ -1,0 +1,9 @@
+{
+  "name": "custom-react-app",
+  "version": "0.1.0",
+  "description": "custom application for react testing",
+  "main": "index.js",
+  "repository": "git@github.com:VincentRobergeDubois/custom-react-app.git",
+  "author": "VincentRobergeDubois <vincent.robergedubois@gmail.com>",
+  "license": "GPL 3.0"
+}
