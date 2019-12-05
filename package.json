@@ -2,8 +2,17 @@
   "name": "custom-react-app",
   "version": "0.1.0",
   "description": "custom application for react testing",
-  "main": "index.js",
+  "main": "dist/index.html",
+  "scripts": {
+    "dev": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack "
+  },
   "repository": "git@github.com:VincentRobergeDubois/custom-react-app.git",
   "author": "VincentRobergeDubois <vincent.robergedubois@gmail.com>",
-  "license": "GPL 3.0"
+  "license": "GPL 3.0",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
 }
