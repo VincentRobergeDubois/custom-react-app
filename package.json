@@ -2,7 +2,7 @@
   "name": "custom-react-app",
   "version": "0.1.0",
   "description": "custom application for react testing",
-  "main": "dist/index.html",
+  "main": "index.html",
   "scripts": {
     "start": "webpack-dev-server --open --config config/webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,6 +12,8 @@
   "author": "VincentRobergeDubois <vincent.robergedubois@gmail.com>",
   "license": "GPL 3.0",
   "devDependencies": {
+    "@types/react": "^16.9.15",
+    "@types/react-dom": "^16.9.4",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.1",
     "file-loader": "^5.0.2",
